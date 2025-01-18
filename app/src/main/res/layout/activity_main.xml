@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_gravity="center">
+
+
+    <Button
+        android:id="@+id/openBrowserButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Open Browser"
+         />
+
+    <Button
+        android:id="@+id/makeCallButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="make a call"
+        android:layout_marginTop="16dp"
+        />
+
+    <Button
+        android:id="@+id/shareTextButton"
+        android:layout_width="108dp"
+        android:layout_height="57dp"
+        android:layout_marginTop="16dp"
+        android:text="Share Text"
+         />
+
+</LinearLayout>
